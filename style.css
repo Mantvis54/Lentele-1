@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+table, th, td {
+    border:1px solid gold;
+    border-collapse: collapse;
+  }
+
+th {
+    background-color: gold;
+    padding: 10px;
+    margin: 10px;
+}
+
+th:nth-child(2) {
+    background: orange;
+}
+
+td {
+    background-color: #4B0082;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
